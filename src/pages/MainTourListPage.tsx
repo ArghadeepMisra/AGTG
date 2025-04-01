@@ -1,12 +1,11 @@
 // src/pages/MainTourListPage.tsx
 import React, { useState, useEffect } from 'react';
 import { getActiveTours } from '../data/tours';
-import { ActiveTour, TourCategory } from '../types'; // Ensure TourCategory is imported here
+import { ActiveTour} from '../types'; // Ensure TourCategory is imported here
 import TourCard from '../components/TourCard';
 import LoadingSpinner from '../components/LoadingSpinner';
 import styles from './MainTourListPage.module.css';
 
-const CATEGORY_ORDER: TourCategory[] = ['IEM', 'Headphone', 'DAP', 'DAC', 'Amp'];
 
 
 
